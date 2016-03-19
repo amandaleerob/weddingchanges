@@ -1,0 +1,139 @@
+* {
+  font-family: 'Crimson Text', serif, serif;
+  color: #19556b;
+  font-size: 16px;
+}
+
+.navbar {
+  position: static;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+.navbar .center .navbar-inner {
+  text-align: center;
+}
+
+.navbar .center .navbar-inner .nav {
+  display: inline-block;
+}
+
+.mainBody {
+  position: static;
+  margin-top: 5%;
+  width: 100%;
+  left: 0;
+  align-content: center;
+  background-color: #fff;
+  z-index: 1;
+}
+
+#myFrame {
+  position: static;
+  width: 100%;
+  height: 60%%;
+}
+
+.otherBody {
+  position: static;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+  margin-right: 10%;
+  align-content: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+#myName {
+  font-family: 'Alex Brush', sans-serif, sans-serif;
+  font-size: 4em;
+  color: #ebbf5d;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+#myName:hover {
+  color: #ddac50;
+}
+
+
+.table {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#myLinks {
+  font-size: 1.5em;
+  padding: 0;
+  left: auto;
+  right: auto;
+  overflow: visible;
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  float: none;
+  margin: 0;
+}
+
+#myLinks li {
+  margin-top: 10px;
+  text-align: center;
+}
+
+a:link {
+  color: #016a86;
+  text-decoration: none;
+}
+/*a:visited {
+  color:
+}*/
+a:hover {
+  color: #429bb8;
+}
+a:active {
+  color: #81c0d8;
+  border-color: #81c0d8;
+}
+
+.mainContainer {
+  display: block;
+}
+
+
+
+.oneColor {
+  width: 15%;
+  height: 100px;
+  display: inline-block;
+
+}
+.oneColor:nth-child(1) {
+  background-color: #d3ebf1;
+}
+.oneColor:nth-child(2) {
+  background-color: #b1dae9;
+}
+.oneColor:nth-child(3) {
+  background-color: #81c0d8;
+}
+.oneColor:nth-child(4) {
+  background-color: #429bb8;
+}
+.oneColor:nth-child(5) {
+  background-color: #016a86;
+}
+.oneColor:nth-child(6) {
+  background-color: #19556b;
+}
